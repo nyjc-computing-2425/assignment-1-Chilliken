@@ -2,7 +2,9 @@ seconds = input('Enter the number of seconds (integer): ')
 seconds = int(seconds)
 
 # ... complete the code below
-
+hours = seconds // 3600
+minutes = (seconds%3600) // 60
+seconds = (seconds%3600) %60
 
 
 # Follow the formatting given
